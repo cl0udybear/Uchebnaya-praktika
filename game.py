@@ -39,7 +39,7 @@ class Solitaire:
 
         self.background = Surface(self.screen.get_size())
         self.background = self.background.convert()
-        self.background.fill((111, 96, 186))
+        self.background.fill((0, 0, 0))
 
         cards = []
         for suit in CardSuit:
